@@ -1,4 +1,4 @@
-import { deepFreeze } from "../utils/object";
+import { deepFreeze } from "../../../src/@seedwork/domain/utils/object";
 
 describe("Object functions tests", () => {
   it("Should must a immutable obj", () => {
