@@ -6,4 +6,4 @@ services:
     build: .
     volumes:
       - ./.docker/zsh/powerlevel10k/.p10k.zsh:/home/node/.p10k.zsh:delegated
-      - ./.docker/zsh/history:/home/node/.zsh_history:delegate
+      - ./.docker/zsh/history:/home/node/.zsh_history:delegated
