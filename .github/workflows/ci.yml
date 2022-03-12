@@ -8,10 +8,10 @@ jobs:
       - uses: actions/setup-node@v3.0.0
 
       - name: Install modules
-      - run: npm install
+        run: npm install
 
       - name: Run all tests
-      - run: npm run test
+        run: npm run test
 
 on:
   push:
