@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1646953274937" clover="3.2.0">
-  <project timestamp="1646953274937" name="All files">
+<coverage generated="1647096521730" clover="3.2.0">
+  <project timestamp="1647096521730" name="All files">
     <metrics statements="68" coveredstatements="68" conditionals="16" coveredconditionals="16" methods="11" coveredmethods="11" elements="95" coveredelements="95" complexity="0" loc="68" ncloc="68" packages="3" files="3" classes="3"/>
     <package name="@seedwork.domain">
       <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
