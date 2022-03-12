@@ -1,5 +1,6 @@
-import InvalidUuidError from '../errors/invalid-uuid-error'
-import UniqueEntityId from './unique-entity-id.vo'
+
+import UniqueEntityId from '../unique-entity-id.vo'
+import InvalidUuidError from '../../../errors/invalid-uuid-error'
 
 describe('Unique Entity tests', () => {
     it('Should throw error when uuid is invalid', () => {
