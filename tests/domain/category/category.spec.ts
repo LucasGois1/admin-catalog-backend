@@ -1,7 +1,10 @@
-import { Category, CategoryProperties } from "./category";
+import {
+  Category,
+  CategoryProperties,
+} from "../../../src/category/domain/entities/category";
 import { validate as uuidIsValid } from "uuid";
-import UniqueEntityId from "../../../@seedwork/domain/value-objects/unique-entity-id.vo";
-import InvalidUuidError from "../../../@seedwork/errors/invalid-uuid-error";
+import UniqueEntityId from "../../../src/@seedwork/domain/value-objects/unique-entity-id.vo";
+import InvalidUuidError from "../../../src/@seedwork/errors/invalid-uuid-error";
 
 describe("Category tests", () => {
   test("constructor of category", () => {
