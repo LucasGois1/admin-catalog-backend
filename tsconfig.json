@@ -98,5 +98,10 @@
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
-  "include": ["src/"]
+  "include": [
+    "src/",
+    "tests/@seedwork/value-objects/value-object.spec.ts",
+    "tests/@seedwork/value-objects/unique-entity-id.vo.spec.ts",
+    "tests/@seedwork/utils/object.spec.ts"
+  ]
 }
